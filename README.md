@@ -4,7 +4,7 @@
 ### 1). Install latest neovim 
 
 
-- ```bash
+```
  sudo add-apt-repository ppa:neovim-ppa/unstable && sudo apt update && sudo apt install neovim
 ```
 
@@ -22,17 +22,16 @@
 
 
 
-- ```bash
+```
 mkdir -p ~/.local/share/fonts
 
 cp ~/Downloads/*.ttf ~/.local/share/fonts/
-
 ```
 
 
 ### 4)🚀 Correct Fix (Clean Install)
 Step 1 — Remove broken config
-- ```bash
+```bash
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
@@ -41,8 +40,7 @@ rm -rf ~/.cache/nvim
 
 ### Step 5 — Install NVChad correctly
 
-
-- ```bash
+```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim
 ```
 
@@ -51,7 +49,7 @@ Use starter repo, not the core repo.
 ### Step 6 — Open nvim
 
 
-- ```bash
+```bash
 nvim
 ```
 
